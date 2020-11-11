@@ -1,3 +1,9 @@
+package Main;
+
+import Fruits.*;
+import Vegetables.*;
+import Flowers.*;
+
 import java.util.Date;
 
 /**
@@ -23,6 +29,11 @@ public class Main {
         p.holdbarhed = new Date(1608768000);
         p.freeze();
 
+        Lager lager = new Lager();
+        lager.fyldOp();
+        lager.antalVarer();
+        lager.visVarer();
     }
+
 
 }

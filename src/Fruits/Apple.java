@@ -1,4 +1,5 @@
-import java.util.Date;
+package Fruits;
+import Main.*;
 
 /**
  * Developed by András Ács (acsandras@gmail.com)
@@ -9,9 +10,9 @@ import java.util.Date;
 
 public class Apple extends Frugt {
 
-    String sort = "Golden Delicious";
-    String type = "spiseæble";
-    boolean moden = false;
+    public String sort = "Golden Delicious";
+    public String type = "spiseæble";
+    public boolean moden = false;
 
 
 

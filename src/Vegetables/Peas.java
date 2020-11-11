@@ -1,3 +1,5 @@
+package Vegetables;
+
 /**
  * Developed by András Ács (acsandras@gmail.com)
  * Zealand / www.zealand.dk
@@ -5,9 +7,6 @@
  * 09/11/2020
  */
 
-public class Frugt extends Varer {
+public class Peas extends Grønsag {
 
-    void coolDown() {
-        System.out.println("Æblerne køles ned.");
-    }
 }

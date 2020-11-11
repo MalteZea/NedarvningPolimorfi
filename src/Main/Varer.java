@@ -1,3 +1,5 @@
+package Main;
+
 import java.util.Date;
 
 /**
@@ -9,11 +11,11 @@ import java.util.Date;
 
 public class Varer {
 
-    double stykpris;
-    Date holdbarhed;
-    boolean kanSælges = true;
+   public double stykpris;
+   public Date holdbarhed;
+   public boolean kanSælges = true;
 
-    void smidUd() {
+  public void smidUd() {
         kanSælges = false;
     }
 

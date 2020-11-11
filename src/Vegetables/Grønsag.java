@@ -1,3 +1,6 @@
+package Vegetables;
+import Main.*;
+
 /**
  * Developed by András Ács (acsandras@gmail.com)
  * Zealand / www.zealand.dk
@@ -6,7 +9,7 @@
  */
 
 public class Grønsag extends Varer {
-    void freeze() {
+    public void freeze() {
         System.out.println("Fryses ned.");
     }
 }
