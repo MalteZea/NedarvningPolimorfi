@@ -36,7 +36,9 @@ public class Lager {
     }
 
     public void visVarer() {
-        System.out.println(vareLager.toString());
+        for (Varer varer : vareLager){
+            System.out.println(varer);
+        }
     }
 
     public int antalAf(String type) {
